@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador de mensaje</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1 class="titulo-cabecera">Encriptador de mensajes</h1>
+    </header>
+    <main class="container">
+      <label for="mensaje" class="label-msg">Ingrese un texto</label>
+      <span class="error"></span>
+      <textarea
+        name="text"
+        id="mensaje"
+        cols="30"
+        rows="10"
+        maxlength="256"
+        placeholder="Ingrese un texto, en minusculas, sin caracteres especiales y sin numeros"
+      ></textarea>
+      <div class="container-buttons">
+        <button class="btn" id="encriptador">Encriptar</button>
+        <button class="btn" id="desencriptador">Desencriptar</button>
+      </div>
+      <textarea
+        name="text"
+        id="respuesta"
+        cols="30"
+        rows="10"
+        maxlength="256"
+      ></textarea>
+      <div class="container-buttons">
+        <button class="btn" id="btn-copiar">Copiar</button>
+      </div>
+    </main>
+    <footer>&copyCreado por Sebastian allende</footer>
+    <script src="index.js"></script>
+  </body>
+</html>

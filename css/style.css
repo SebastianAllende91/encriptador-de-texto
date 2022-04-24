@@ -1,0 +1,78 @@
+body{
+    background: url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/9c4e5cea-9131-11e6-a47b-00163ed833e7/3137491154/matrix-code-emulator-screenshot.jpg);
+    color: white;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cabecera{
+    height: 70px;
+}
+
+.titulo-cabecera{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container{
+    width: 60%;
+    background: black;
+    height: auto;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+ /* #03A062 */
+ .error{
+    color: red;
+    display: block;
+    text-align: center;
+    font-size: 2rem;     
+ }
+
+.label-msg{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+
+textarea{
+    min-width: -webkit-fill-available;
+    resize: none;
+    min-width: -webkit-fill-available;
+    resize: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    height: auto;
+}
+
+.btn{
+    height: 40px;
+    margin: 15px 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+@media(max-width:500px){
+    .cabecera{
+        height: auto;
+    }
+    .titulo-cabecera{
+        font-size: 2rem;
+    }
+    .container{
+       width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+}
